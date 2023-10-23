@@ -57,7 +57,7 @@ def obter_inteiro(mensagem):
             valor = int(input(mensagem))
             return valor
         except ValueError:
-            print("Por favor, insira um valor inteiro válido.")
+            print("insira um valor inteiro")
 
 def main():
     inicio = obter_inteiro('Qual o início das temperaturas Fahrenheit? ')
